@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "syringe-client",
+  "version": "${version}",
+  "name": "Syringe",
+  "description": "",
+  "authors": [
+    "SyringeMC"
+  ],
+  "contact": {
+    "website": "https://syringemc.org",
+    "repo": "https://github.com/syringemc/syringe-client"
+  },
+  "license": "MIT",
+  "icon": "assets/syringe-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.syringemc.syringeclient.SyringeClient"
+    ]
+  },
+  "mixins": [
+    "syringe-client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
