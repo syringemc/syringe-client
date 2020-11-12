@@ -1,4 +1,4 @@
-package org.syringemc.syringeclient;
+package org.syringemc.client;
 
 import net.fabricmc.api.ModInitializer;
 
