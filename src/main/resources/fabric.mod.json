@@ -16,7 +16,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "org.syringemc.syringeclient.SyringeClient"
+      "org.syringemc.client.SyringeClient"
     ]
   },
   "mixins": [
