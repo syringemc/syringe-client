@@ -4,6 +4,8 @@
   "package": "org.syringemc.client.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinMinecraftClient",
+    "MixinInGameHud"
   ],
   "client": [
   ],
