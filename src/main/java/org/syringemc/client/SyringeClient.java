@@ -6,6 +6,6 @@ public class SyringeClient implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
+        SyringePacketListener.register();
     }
 }
